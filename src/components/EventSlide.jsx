@@ -9,7 +9,7 @@ import { spacing } from '../utils/textStyle'
 
 const panelReveal = {
   hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { duration: 0.7, delay: 1.8 } }
+  visible: { opacity: 1, transition: { duration: 0.7, delay: 1 } }
 }
 
 // Text content bounces in as a group, starting right as the glass panel finishes fading in

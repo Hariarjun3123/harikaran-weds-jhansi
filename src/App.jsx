@@ -160,8 +160,11 @@ export default function App() {
             >
               💻
             </div>
-            <span>Created by Harikaran</span>
-            <span style={{ color: '#8B4513', fontWeight: 600 }}>8668181098</span>
+            <span>{t.final.footer.createdBy}</span>
+
+            <span style={{ color: '#8B4513', fontWeight: 600 }}>
+              {t.final.footer.phone}
+            </span>
           </footer>
         </>
       )}

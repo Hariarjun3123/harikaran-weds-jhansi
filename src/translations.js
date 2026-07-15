@@ -45,7 +45,7 @@ export const translations = {
       description:
         'Join us for an evening filled with love, laughter, music and celebration as we celebrate this joyful beginning with our family and friends.',
       date: '17 September 2026',
-      time: '7:00 PM onwards',
+      time: '6:30 PM onwards',
       venue: 'Subham AC Hall',
       address: 'Opposite Petrol Bunk, MMDA Colony Main Road, Razaak Garden, Arumbakkam, Chennai, Tamil Nadu 600106'
     },
@@ -53,7 +53,12 @@ export const translations = {
       heading: 'Thank You',
       sub: 'FOR YOUR LOVE & BLESSINGS',
       msg1: ['Your presence on our special day', 'will make our celebration', 'even more meaningful.'],
-      msg2: ['We look forward to celebrating', 'this beautiful beginning', 'with you.']
+      msg2: ['We look forward to celebrating', 'this beautiful beginning', 'with you.'],
+
+      footer: {
+        createdBy: 'Created by Harikaran',
+        phone: '8668181098'
+      }
     }
   },
   ta: {
@@ -116,7 +121,12 @@ export const translations = {
       msg2: ['இந்த அழகிய தொடக்கத்தை', 'உங்களுடன் கொண்டாட', 'ஆவலுடன் காத்திருக்கிறோம்.'],
       // A traditional-style Tamil blessing line, shown only in Tamil mode as a small extra
       // touch beneath the names — not a quoted song/poem, just a common wedding well-wish.
-      quote: 'இரு மனங்கள் இணையும் இந்நல் நேரத்தில், அனைவரின் ஆசிகளும் எங்களுடன் இருக்கட்டும்.'
+      quote: 'இரு மனங்கள் இணையும் இந்நல் நேரத்தில், அனைவரின் ஆசிகளும் எங்களுடன் இருக்கட்டும்.',
+     
+      footer: {
+        createdBy: 'உருவாக்கம் : ஹரிகரன்',
+        phone: '8668181098'
+      }
     }
   }
 }
