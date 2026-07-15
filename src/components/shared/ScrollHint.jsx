@@ -1,13 +1,13 @@
 import { motion, useReducedMotion } from 'framer-motion'
 
-export default function ScrollHint({ color = '#fff', bottom = '28px' }) {
+export default function ScrollHint({ color = '#fff', bottom = '25px' }) {
   const reduce = useReducedMotion()
 
   return (
     <div
       style={{
         position: 'absolute',
-        bottom,
+        bottom: `calc(${bottom} + env(safe-area-inset-bottom))`,
         left: 0,
         right: 0,
         display: 'flex',
@@ -16,7 +16,7 @@ export default function ScrollHint({ color = '#fff', bottom = '28px' }) {
         pointerEvents: 'none'
       }}
     >
-      <motion.div
+      <motion.div 
         animate={reduce ? {} : { y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 1.5 }}
         style={{
