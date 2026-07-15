@@ -91,16 +91,13 @@ export default function FinalSlide({ t, lang }) {
                 {lang === 'ta' ? 'நா.ஹரிகரன்' : 'N.Harikaran'}
               </h2>
               <div style={{ color: '#D4AF37', fontSize: '26px', margin: '10px 0' }}>&amp;</div>
-              <h2
-                style={{
-                  fontFamily: "'Cormorant Garamond', 'Noto Sans Tamil', serif",
-                  fontSize: 'clamp(30px, 7.5vw, 44px)',
-                  color: '#fff',
-                  margin: 0,
-                  lineHeight: 1.3
-                }}
-              >
-                {lang === 'ta' ? 'அற்புதம்' : 'Arputham'}
+              <h2 style={{
+                fontFamily:
+                  lang === 'ta'
+                    ? "'Noto Sans Tamil', serif"
+                    : "'Cormorant Garamond', serif", fontSize: 'clamp(30px, 7.5vw, 44px)', color: '#fff', margin: 0
+              }}>
+                {lang === 'ta' ? 'ப.அற்புதம்' : 'P.Arputham'}
               </h2>
 
               <div

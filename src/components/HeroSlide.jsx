@@ -78,7 +78,7 @@ export default function HeroSlide({ t, lang }) {
                   border: '1.5px solid rgba(212,175,55,.6)',
                   boxShadow: '0 4px 18px rgba(0,0,0,.35)',
                   display: 'inline-block',
-                  maxWidth: 'min(440px, 92vw)'
+                  maxWidth: 'min(500px, 94vw)'
                 }}
               >
 
@@ -86,7 +86,10 @@ export default function HeroSlide({ t, lang }) {
                   style={{
                     margin: 0,
                     color: '#FDECC8',
-                    fontSize: 'clamp(13px, 3.4vw, 16px)',
+                    fontSize:
+                      lang === 'ta'
+                        ? 'clamp(11px, 2.9vw, 16px)'
+                        : 'clamp(13px, 3.4vw, 16px)',
                     lineHeight: 1.7,
                     fontStyle: 'italic',
                     fontFamily:
@@ -177,10 +180,10 @@ export default function HeroSlide({ t, lang }) {
                     transition={{ type: 'spring', stiffness: 260, damping: 14, delay: 0.75 }}
                     style={{ display: 'inline-block' }}
                   >
-                    அற்புதம்
+                    ப.அற்புதம்
                   </motion.span>
                 ) : (
-                  <AnimatedName text="Arputham" delay={0.75} />
+                  <AnimatedName text="P.Arputham" delay={0.75} />
                 )}
               </h1>
 
