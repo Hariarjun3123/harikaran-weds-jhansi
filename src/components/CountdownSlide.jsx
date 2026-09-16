@@ -7,7 +7,7 @@ import { fadeUp, bounceStagger, bounceIn } from '../animations'
 import { spacing } from '../utils/textStyle'
 
 export default function CountdownSlide({ t, lang }) {
-  const { days, hours, minutes, seconds, isPast } = useCountdown('2026-09-17T08:00:00')
+  const { days, hours, minutes, seconds, isPast } = useCountdown('2026-09-17T07:30:00')
 
   const boxStyle = {
     width: 'clamp(60px, 18vw, 75px)',
