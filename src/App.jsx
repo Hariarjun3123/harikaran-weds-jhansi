@@ -102,7 +102,7 @@ export default function App() {
             date={t.ceremony.date}
             time={t.ceremony.time}
             dateStr="2026-09-17"
-            time24="08:00"
+            time24="07:30"
             venue={t.ceremony.venue}
             address={t.ceremony.address}
             mapsUrl="https://maps.app.goo.gl/MqpJAxynrY69vB3y8"
