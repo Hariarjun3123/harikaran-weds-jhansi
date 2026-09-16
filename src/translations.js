@@ -35,7 +35,7 @@ export const translations = {
         'With the blessings of our families, we warmly invite you to witness our sacred wedding ceremony and Muhurtham as we begin our beautiful journey together.',
       dressCode: 'Traditional Attire',
       date: '17 September 2026',
-      time: '8:00 AM onwards',
+      time: '7:30 AM onwards',
       venue: 'Aathu Kovil Muneeswaran',
       address: '25HW+9QC, Ekkatuthangal, St. Thomas Mount, Chennai, Tamil Nadu 600032'
     },
@@ -45,7 +45,7 @@ export const translations = {
       description:
         'Join us for an evening filled with love, laughter, music and celebration as we celebrate this joyful beginning with our family and friends.',
       date: '17 September 2026',
-      time: '6:30 PM onwards',
+      time: '7:00 PM onwards',
       venue: 'Subham AC Hall',
       address: 'Opposite Petrol Bunk, MMDA Colony Main Road, Razaak Garden, Arumbakkam, Chennai, Tamil Nadu 600106'
     },
